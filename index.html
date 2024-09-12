@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Main Menu -->
+        <header>
+            <ul>
+                <li><button class="glow-on-hover home-css" name="home1"><img width="35" name="home1" src="178-1785162_hexagon-clipart-black-and-white.png" alt=""></button></li>
+                <li><button class="glow-on-hover" name="calculator" >Calculator</button></li>
+                <li><button class="glow-on-hover" name="ageCalc" >Age Calculator</button></li>
+                <li><button class="glow-on-hover" name="weather" >Weather App</button></li>
+                <li><button class="glow-on-hover" name="clock" >Clock</button></li>
+                <li><button class="glow-on-hover" name="stopwatch" >Stopwatch</button></li>
+                <li><button class="glow-on-hover" name="LISTS" >Todo List </button></li>
+                
+            </ul>
+        </header>
+
+        <!-- Content Section -->
+        <div id="content-section">
+            <div id="home1"class="home-body sub-app-container">
+                <h1>WELCOME TO MY <span class="WEBSITE">WEBSITE</span></h1>
+                <div class="social-links">
+                    <ul>
+                        <li id="linked"><a href="https://github.com/MohammedYasser6" target="_blank"><img width="45px" src="pngimg.com - github_PNG63.png" alt="linkedin"/></a></li>
+                        <li id="linked"><a href="https://www.linkedin.com/in/mohamed-yasser-2ba5b6318" target="_blank"><img width="45px" src="logo-linkedin-icon-4096.png" alt="linkedin"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- age -->
+            <div id="ageCalc" class="age-calc hidden sub-app-container ">
+                <div class="header">
+                    <h1>Age Calculator</h1>
+        
+                </div>
+                <span>Please enter birthdate :</span>
+                <div class="input-date">
+                    <input type="date" id="birthdate-input">
+                </div>
+                <div class="button"><button id="calculate-age-button">Calculate age</button></div>
+                <span class="age">Your Age is 20 Years, 3 Months, 2 Days</span>
+            </div>
+            <!-- calc=================================================================== -->
+            <div id="calculator" class="calculator-main__body sub-app-container hidden">
+                <h1>Calculator</h1>
+                <div class="calculator-screen-two"></div>
+                <div class="calculator-screen"> </div>
+                <div class="first-row">
+                    <ul>
+                        <li class="numbers button">7</li>
+                        <li class="numbers button">8</li>
+                        <li class="numbers button">9</li>
+                        <li class="signs button">/</li>
+                    </ul>
+                </div>
+        
+                <div class="first-row">
+                    <ul>
+                        <li class="numbers button">4</li>
+                        <li class="numbers button">5</li>
+                        <li class="numbers button">6</li>
+                        <li class="signs button">*</li>
+                    </ul>
+                </div>
+                <div class="first-row">
+                    <ul>
+                        <li class="numbers button">1</li>
+                        <li class="numbers button">2</li>
+                        <li class="numbers button">3</li>
+                        <li class="signs button">+</li>
+                    </ul>
+                </div>
+                <div class="first-row">
+                    <ul>
+                        <li class="signs button">.</li>
+                        <li class="numbers button">0</li>
+                        <li class="clear button">C</li>
+                        <li class="signs button">-</li>
+                    </ul>
+                </div>
+                <div class="first-row">
+                    <ul>
+                        <li class="signs button">(</li>
+                        <li class="signs button">)</li>
+                        <li class="del button">Del</li>
+                        <li class="equal button">=</li>
+                       
+                    </ul>
+                </div>
+        
+            </div>
+            <!-- digital clock============================================================ -->
+            
+                <div id="clock" class="clock-body sub-app-container  hidden ">
+                    <div class="day"></div>
+                    <div class=" digits">
+                        <span id="hours">00</span>
+                        <span>:</span>
+                        <span id="minutes">00</span> 
+                        <span>:</span>
+                        <span id="seconds">00 </span>
+                        <span id="am-pm"></span>
+            
+            </div>
+        </div>
+        <!-- weather===================================================================== -->
+        <div class="weather-body sub-app-container hidden" id="weather">
+            <h1>Weather App</h1>
+            <date></date>
+            <div>
+              <input type="text" class="input" placeholder="please enter your city">
+              <button class="search-btn">Search</button>
+            </div>
+            <div class="small-box">
+              <h2 class="city">cairo,EG</h2>
+              <div class="img"></div>
+              <span class="temp" id="temp"> Temp:34°</span>
+              <span class="temp" id="weatherr">Weather:clouds</span>
+              <span class="temp" id="minmax">Temp Range:34°/34°</span>
+            </div>
+          </div>
+        <!-- stopwatch===================================================================== -->
+        <div class="mian-box sub-app-container hidden" id="stopwatch">
+            <div class="side-box">
+    
+                <div class="digits">
+                    <span id="shours">00</span>
+                    <span>:</span>
+                    <span id="sminutes">00</span> 
+                    <span>:</span>
+                    <span id="sseconds">00 </span>
+                    <span>:</span>
+                    <span id="smilliescends">000</span>
+                </div>
+                </div>
+                <div class="buttons"> 
+                <ul>
+                    <li class="Start">Start</li>
+                    <li class="Pause">Pause</li>
+                    <li class="Reset">Reset</li>
+                </ul>
+            </div>   
+            </div>
+            <!-- TODOLIST================================================================= -->
+            <div class="todo-main_body sub-app-container hidden "id="LISTS">
+                <h1>Todo List</h1>
+                <div class="search-container">
+                <input type="text"  class="search-input" placeholder="Search todo" ><div class="search-Btn"></div>
+            </div>
+    
+            <div class="tasks-container">
+                <ul class="li-container">
+                <!-- <li>s<button class="img"></button></li> -->
+                </ul>
+            <!--  -->
+            </div>
+            <span class="add-new">Add new Todo...</span>
+            <div class="input-container">
+                <input type="text"  class="input-input"><button  class="add-Btn"></button>
+            </div>
+        
+            </div>
+    
+    </div>
+        <script src="main.js"></script>
+        <script src="agecalc.js"></script>
+        <script src="weather.js"></script>
+        <script src="stopwatch.js"></script>
+        <script src="clock.js"></script>
+        <script src="calc.js"></script>
+        <script src="todo.js"></script>
+</body>
+</html>
