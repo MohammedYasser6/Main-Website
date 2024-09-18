@@ -884,3 +884,151 @@ background-position: 0% 50%;
     }
 
 }
+@media screen and (max-width: 370px) {
+    header ul{
+        display: flex;
+        
+       overflow-x: auto;
+       max-width: 350px;
+       height: 60px;
+    }
+    .content-section{
+        display: flex;
+        justify-content: center;
+    }
+     .sub-app-container{
+        margin-top: -3rem;
+        width: auto;
+        height: auto;
+     }
+     .clock-body{
+        width:300px ;
+        height: 125px;
+        padding-left: 23px;
+        margin-top: 3rem;
+     }
+     .clock-body .digits{
+        font-size: 15px;
+        width: 300px;
+     }
+     #home1{
+        margin-top: 20px;
+        font-size: 30px;
+     }
+     .weather-body .small-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(15, 77, 94, 0.599);
+        width: 250px;
+        height: 230px;
+        gap: 2px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .weather-body{
+        width: 320px;
+    }
+    .weather-body h1{
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+    .mian-box{
+        width: 320px;
+    }
+    .mian-box .side-box{
+        width: 350px;
+        display: flex;  
+    }
+    .mian-box .digits{   
+        width: 320px;
+        height: 50px; 
+ 
+    }
+    .mian-box span{
+  
+        place-items: center;
+        font-size: 45px;
+        padding: 0px;
+    }
+    .calculator-main__body{
+        margin-top: -5.5rem;
+    }
+
+}
+@media screen and (max-width: 490px){
+    header ul{
+        display: flex;
+        
+       overflow-x: auto;
+       max-width: 350px;
+       height: 60px;
+    }
+    .content-section{
+        display: flex;
+        justify-content: center;
+    }
+     .sub-app-container{
+        margin-top: -3rem;
+        width: auto;
+        height: auto;
+     }
+     .clock-body{
+        width:300px ;
+        height: 125px;
+        padding-left: 23px;
+        margin-top: 3rem;
+     }
+     .clock-body .digits{
+        font-size: 15px;
+        width: 300px;
+     }
+     #home1{
+        margin-top: 20px;
+        font-size: 30px;
+     }
+     .weather-body .small-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(15, 77, 94, 0.599);
+        width: 250px;
+        height: 230px;
+        gap: 2px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .weather-body{
+        width: 320px;
+    }
+    .weather-body h1{
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+    .mian-box{
+        width: 320px;
+    }
+    .mian-box .side-box{
+        width: 350px;
+        display: flex;  
+    }
+    .mian-box .digits{   
+        width: 320px;
+        height: 50px; 
+ 
+    }
+    .mian-box span{
+  
+        place-items: center;
+        font-size: 45px;
+        padding: 0px;
+    }
+    .calculator-main__body{
+        margin-top: -5.5rem;
+    }
+
+}
