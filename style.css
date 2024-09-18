@@ -758,7 +758,14 @@ background-position: 0% 50%;
         height: 125px;
         padding-left: 23px;
         margin-top: 3rem;
+<<<<<<< HEAD
         font-size: 15px;
+=======
+     }
+     .clock-body .digits{
+        font-size: 15px;
+        width: 300px;
+>>>>>>> fba8311 (feature 2.3)
      }
      #home1{
         margin-top: 20px;
