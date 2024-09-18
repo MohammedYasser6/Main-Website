@@ -667,3 +667,72 @@ background-position: 0% 50%;
     list-style: none;
     color: #002bff;
 }
+@media screen and (max-width: 480px) {
+    header ul{
+        display: flex;
+        
+       overflow-x: auto;
+       max-width: 480px;
+       height: 60px;
+    }
+    .glow-on-hover{
+        width: 75px;
+    }
+    .glow-on-hover .home-css{
+        width: 75px;
+    }
+    .content-section{
+        display: flex;
+        justify-content: center;
+    }
+     .sub-app-container{
+        margin-top: -3rem;
+        width: auto;
+        height: auto;
+     }
+     .clock-body{
+        width:300px ;
+        height: 125px;
+        padding-left: 23px;
+     }
+     #home1{
+        margin-top: 20px;
+        font-size: 30px;
+     }
+     .weather-body .small-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(15, 77, 94, 0.599);
+        width: 250px;
+        height: 230px;
+        gap: 2px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .weather-body{
+        width: 320px;
+    }
+    .weather-body h1{
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+    .mian-box{
+        width: 420px;
+    }
+    .mian-box .side-box{
+        width: 450px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mian-box .digits{    
+        font-size: 5px;
+        
+    }
+    .calculator-main__body{
+        margin-top: -5.5rem;
+    }
+    
+}
